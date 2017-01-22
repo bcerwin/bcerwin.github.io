@@ -15,9 +15,6 @@ header {
 	background-color: #262626;
 	height: 100px;
 }
-nav {
-	float: right;
-}
 section{
 	padding-top: 40px;
 }
@@ -47,7 +44,7 @@ p, li {
 	text-decoration: none;
 	text-transform: uppercase;
 }
-.pname {
+.name {
 	color: #26282a;
 	font-family: "Playfair Display", Georgia, serif;
 	font-size: 1.5em;
