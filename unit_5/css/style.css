@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pathway+Gothic+One|Playfair+Display');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: 
+	color: #26282a;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	font-size: 18px;
+}
+header {
+	background-color: #ffed74;
+    border: 1px black solid;
+    padding: 20px;
+}
+nav {
+	background-color: #e8c66a;
+    border: 1px black solid;
+    padding: 20px;
+}
+section{
+	background-color: #ffe2b8;
+    border: 1px black solid;
+    padding: 20px;
+}
+footer {
+	background-color: #ff957e;
+    border: 1px black solid;
+    padding: 20px;
+}
+h1 {
+	font-family: "Playfair Display", Georgia, serif;
+	font-size: 2.5em;
+	font-weight: normal;
+}
+h2, h3 {
+	color: #ff6c45;
+	font-family: "Pathway Gothic One", sans-serif;
+	font-size: 1.25em;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+p, li {
+	color: #6c6c6c;
+	line-height: 1.5em;
+}
+.navlink {
+	color: #fff;
+	font-family: "Pathway Gothic One", sans-serif;
+	letter-spacing: 1px;
+	margin: 0 15px;
+	padding: 0 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.name {
+	color: #26282a;
+	font-family: "Playfair Display", Georgia, serif;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+#hero {
+	background-color: #262626;
+	height: 500px;
+}
+#hero h1 {
+	color: #fff;
+	font-size: 4.5em;
+	line-height: 1.2em;
+}
+
