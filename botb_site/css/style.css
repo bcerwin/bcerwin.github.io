@@ -254,7 +254,9 @@ li, address {
   display: -ms-flexbox;      /* TWEENER - IE 10 */
   display: -webkit-flex;     /* NEW - Chrome */
   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
-	align-items: flex-start;
+	-webkit-align-items: flex-start;
+       -ms-flex-align: start;
+          align-items: flex-start;
 }
 .slat__body {
 	width: 50%;
@@ -265,11 +267,15 @@ li, address {
 	width: 50%;
 }
 .slat--reversed {
-	flex-direction: row-reverse;
+	-webkit-flex-direction: row-reverse;
+	    -ms-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
 }
 @media only screen and (max-width: 800px) {
 	.slat {
-		align-items: center;
+		-webkit-align-items: center;
+		     -ms-flex-align: center;
+		        align-items: center;
 	}
 	.slat__body {
 		padding: 1em 2em;
@@ -310,8 +316,12 @@ li, address {
   display: -ms-flexbox;      /* TWEENER - IE 10 */
   display: -webkit-flex;     /* NEW - Chrome */
   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
-	align-items: flex-start;
-	justify-content: space-between;
+	-webkit-align-items: flex-start;
+	     -ms-flex-align: start;
+	        align-items: flex-start;
+	-webkit-justify-content: space-between;
+	          -ms-flex-pack: justify;
+	        justify-content: space-between;
 	height: 260px;
 	overflow: hidden;
 	background-color: #f3f2f2;
@@ -333,7 +343,9 @@ li, address {
 }
 @media only screen and (max-width: 750px) {
 	.footer {
-		justify-content: space-around;
+		-webkit-justify-content: space-around;
+		          -ms-flex-pack: distribute;
+		        justify-content: space-around;
 		height: auto;
 		overflow: visible;
 	}
