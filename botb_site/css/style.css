@@ -129,7 +129,9 @@ li, address {
 .header-logo {
 	position: absolute;
 	left: 50%;
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	        transform: translateX(-50%);
 	margin-top: 10px;
 }
 @media only screen and (max-width: 975px) {
@@ -194,18 +196,24 @@ li, address {
 	position: absolute;
 	top: -30px;
 	left: 50%;
-	transform: translateX(-40%);
+	-webkit-transform: translateX(-40%);
+      -ms-transform: translateX(-40%);
+          transform: translateX(-40%);
 	width: 100px;
 	background-color: #fff;
 }
 .box-title:after {
   	bottom: 0;
   	left: 50%;
-  	transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
 }
 #cater-icon {
 	top: -40px;
-	transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	        transform: translateX(-50%);
 	width: 70px;
 }
 @media only screen and (max-width: 975px) {
