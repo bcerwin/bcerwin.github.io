@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>iconmonstr-email-10</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1240.000000, -2825.000000)" fill-rule="nonzero" fill="#000000">
+            <g id="iconmonstr-email-10" transform="translate(1240.000000, 2825.000000)">
+                <path d="M20,0.033254902 C8.955,0.033254902 0,8.96718431 0,19.9861961 C0,31.0052078 8.955,39.9391373 20,39.9391373 C31.045,39.9391373 40,31.0052078 40,19.9861961 C40,8.96718431 31.045,0.033254902 20,0.033254902 L20,0.033254902 Z M31.65,11.6392157 L20,21.0603294 L8.34833333,11.6392157 L31.65,11.6392157 Z M31.6666667,28.2666667 L8.33333333,28.2666667 L8.33333333,14.1250196 L20,23.5577725 L31.6666667,14.1266824 L31.6666667,28.2666667 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
