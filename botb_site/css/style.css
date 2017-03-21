@@ -169,7 +169,11 @@ li, address {
 ********************/
 
 .box-container {
-	display: flex;
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 	padding: 0 40px 80px 40px;
 	margin: 0 auto;
 	max-width: 1600px;
@@ -184,7 +188,7 @@ li, address {
 	margin: 0 1%;
 	padding: 80px 40px 40px 40px;
 	text-align: center;
-	width: 31.33333%;
+	width: 31.33%;
 }
 .box-icon {
 	position: absolute;
@@ -211,8 +215,7 @@ li, address {
 	}
 	.box {
 		width: 80%;
-		margin: auto;
-		margin-bottom: 80px;
+		margin: 0 auto 80px;
 	}
 }
 @media only screen and (max-width: 600px) {
@@ -238,7 +241,11 @@ li, address {
 	margin: 0 auto;
 }
 .slat {
-	display: flex;
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 	align-items: flex-start;
 }
 .slat__body {
@@ -290,7 +297,11 @@ li, address {
 ******************/
 
 .footer {
-	display: flex;
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 	align-items: flex-start;
 	justify-content: space-between;
 	height: 260px;
